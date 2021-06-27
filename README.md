@@ -2,15 +2,15 @@
 
 ## Description
 
-In this project I have done the following changes in the existing book-search code:
+In this project I have done the following changes in the existing code of book-search application:
 
-1. Setting up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
+* Setting up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
 
-2. Modifying the existing authentication middleware so that it works in the context of a GraphQL API.
+* Modifying the existing authentication middleware so that it works in the context of a GraphQL API.
 
-3. Creating an Apollo Provider so that requests can communicate with an Apollo Server.
+* Creating an Apollo Provider so that requests can communicate with an Apollo Server.
 
-4. Deploying the application to Heroku.
+* Deploying the application to Heroku.
 
 
 ## Table of Contents
@@ -33,10 +33,20 @@ In this project I have done the following changes in the existing book-search co
 
 ## Screenshots
 
-Please see below for the screenshot of homepage:
+Please see below animations for different sections of this application:
 
-![alt=homepage](./client/src/utils/img/homepage.JPG)
+* As you can see in the following animation, a user can type a search term (in this case, "star wars") in a search box and the results appear:
 
+![alt=homepage](./client/src/utils/img/homepage.gif)
+
+* The user can save books by clicking "Save This Book!" under each search result, as shown in the following animation:
+
+![alt=saving-books](./client/src/utils/img/saveBook.gif)
+
+
+* A user can view their saved books on a separate page, as shown in the following animation:
+
+![alt=view-saved-books](./client/src/utils/img/viewSavedBooks.gif)
 
 ## Available Scripts
 
