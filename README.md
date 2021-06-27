@@ -28,13 +28,13 @@ This application uses Google Books API to search for books and enables users to 
 
 In this project I have done the following changes in the existing code of book-search application:
 
-* Setting up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
+- [x] Setting up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
 
-* Modifying the existing authentication middleware so that it works in the context of a GraphQL API.
+- [x] Modifying the existing authentication middleware so that it works in the context of a GraphQL API.
 
-* Creating an Apollo Provider so that requests can communicate with an Apollo Server.
+- [x] Creating an Apollo Provider so that requests can communicate with an Apollo Server.
 
-* Deploying the application to Heroku.
+- [x] Deploying the application to Heroku.
 
 ## Screenshots
 
