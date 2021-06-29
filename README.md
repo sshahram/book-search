@@ -23,6 +23,8 @@ This application uses Google Books API to search for books and enables users to 
 * JSON Web Token (JWT)
 * Apollo Server and Provider
 * Google Books API
+* Node
+* Express
 
 ## Tasks List
 
